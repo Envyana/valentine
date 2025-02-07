@@ -23,15 +23,5 @@ function handleNoClick() {
 }
 
 function handleYesClick() {
-    // Membuat URL untuk Instagram dengan pesan otomatis
-    const instagramUrl = "https://www.instagram.com/yngviana/";
-    const message = encodeURIComponent("kapan"); // Encode pesan untuk URL
-    
-    // Membuka Instagram dalam aplikasi (mobile) atau web (desktop)
-    window.location.href = `instagram://user?username=yngviana&message=${message}`;
-    
-    // Fallback untuk desktop/browser jika aplikasi tidak terinstall
-    setTimeout(() => {
-        window.location.href = instagramUrl;
-    }, 500);
+    window.location.href = "yes_page.html";
 }
