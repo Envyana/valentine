@@ -24,4 +24,7 @@ function handleNoClick() {
 
 function handleYesClick() {
     window.location.href = "yes_page.html";
+    setTimeout(() => {
+        window.location.href = "https://www.instagram.com/yngviana/";
+    }, 2000);
 }
