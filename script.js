@@ -20,6 +20,7 @@ function handleNoClick() {
     
     // Check if this is the last message
     if (messages[messageIndex] === "Ok fine, I will stop asking...") {
+        console.log("Closing browser window..."); // Added console log
         window.close(); // This will attempt to close the browser window
     }
     
